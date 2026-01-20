@@ -1,0 +1,42 @@
+-- Buat database
+CREATE DATABASE IF NOT EXISTS policy_sandbox;
+USE policy_sandbox;
+
+-- Tabel users
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabel country_data
+CREATE TABLE IF NOT EXISTS country_data (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    population BIGINT NOT NULL,
+    urbanization_rate DECIMAL(5,2) NOT NULL,
+    fuel_dependency ENUM('low', 'medium', 'high') NOT NULL,
+    income_level ENUM('low', 'lower-middle', 'upper-middle', 'high') NOT NULL,
+    political_stability ENUM('low', 'medium', 'high') NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- Tabel policy_simulations
+CREATE TABLE IF NOT EXISTS policy_simulations (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    country_data_id INT NOT NULL,
+    policy_type ENUM('Subsidi BBM', 'Pajak', 'Bantuan Sosial', 'Upah Minimum') NOT NULL,
+    percentage_change DECIMAL(5,2) NOT NULL,
+    policy_target VARCHAR(100) NOT NULL,
+    time_frame ENUM('pendek', 'menengah', 'panjang') NOT NULL,
+    short_term_impact TEXT NOT NULL,
+    long_term_impact TEXT NOT NULL,
+    risk_probability DECIMAL(5,2) NOT NULL,
+    confidence_level ENUM('low', 'medium', 'high') NOT NULL,
+    simulation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (country_data_id) REFERENCES country_data(id) ON DELETE CASCADE
+);
