@@ -49,23 +49,23 @@
 ## 📂 Dokumentasi Project
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/afb89ccf-940e-4d06-9f34-6e68c8491b80" width="240" />
-  <img src="https://github.com/user-attachments/assets/edfd113b-1151-48da-9457-96ce28580ee8" width="240" />
-  <img src="https://github.com/user-attachments/assets/8eee6d29-282d-4ca7-ba97-0d453db7cee2" width="240" />
-  <img src="https://github.com/user-attachments/assets/8a365589-a3d2-47f4-83c8-ef8c9abca23d" width="240" />
+  <img src="https://github.com/user-attachments/assets/afb89ccf-940e-4d06-9f34-6e68c8491b80" width="220"/>
+  <img src="https://github.com/user-attachments/assets/edfd113b-1151-48da-9457-96ce28580ee8" width="220"/>
+  <img src="https://github.com/user-attachments/assets/8eee6d29-282d-4ca7-ba97-0d453db7cee2" width="220"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0f89225e-30be-4357-8e57-166e2cc67a14" width="240" />
-  <img src="https://github.com/user-attachments/assets/ff24c58e-cfb5-402a-b020-c41f2642488d" width="240" />
-  <img src="https://github.com/user-attachments/assets/d7220510-4d0a-44fe-ab23-018dd7b8375e" width="240" />
-  <img src="https://github.com/user-attachments/assets/f2ec6e03-ccf4-4a80-92a3-f5aa3363864d" width="240" />
+  <img src="https://github.com/user-attachments/assets/8a365589-a3d2-47f4-83c8-ef8c9abca23d" width="220"/>
+  <img src="https://github.com/user-attachments/assets/0f89225e-30be-4357-8e57-166e2cc67a14" width="220"/>
+  <img src="https://github.com/user-attachments/assets/ff24c58e-cfb5-402a-b020-c41f2642488d" width="220"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9a12cdcf-4b4a-4620-9114-20db3a835b28" width="240" />
+  <img src="https://github.com/user-attachments/assets/d7220510-4d0a-44fe-ab23-018dd7b8375e" width="220"/>
+  <img src="https://github.com/user-attachments/assets/f2ec6e03-ccf4-4a80-92a3-f5aa3363864d" width="220"/>
+  <img src="https://github.com/user-attachments/assets/9a12cdcf-4b4a-4620-9114-20db3a835b28" width="220"/>
 </div>
