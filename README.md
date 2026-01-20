@@ -26,9 +26,9 @@
 
 ## 👥 Identitas Kelompok
 
-**Nama Kelompok**: Kelompok 2
+**Kelompok 2** 
 
-**Anggota Kelompok dan Peran**:
+**Anggota Kelompok dan Bagiannya**:
 
 1. **Muhammad Susilo Ramadhan**(Project Manager)
    Bertanggung jawab dalam pengelolaan project, pembagian tugas, serta koordinasi tim.
