@@ -30,19 +30,19 @@
 
 **Anggota Kelompok dan Peran**:
 
-1. **Muhammad Susilo Ramadhan** — Project Manager
+1. **Muhammad Susilo Ramadhan**(Project Manager)
    Bertanggung jawab dalam pengelolaan project, pembagian tugas, serta koordinasi tim.
 
-2. **Kholis Nurrohman** — Frontend Developer
+2. **Kholis Nurrohman**(Frontend Developer)
    Bertugas merancang dan mengimplementasikan tampilan aplikasi menggunakan Flutter serta menghubungkannya dengan backend melalui API.
 
-3. **Yofan Jordan** — Backend Developer
+3. **Yofan Jordan**(Backend Developer)
    Bertanggung jawab dalam pengembangan REST API, logika sistem, serta integrasi dengan database.
 
-4. **Aprilia Nurul Hidayah** — Database Engineer
+4. **Aprilia Nurul Hidayah**(Database Engineer)
    Bertugas merancang struktur database, relasi data, serta memastikan integritas data aplikasi.
 
-5. **Muhammad Hafas Asfahani** — Tester & Dokumentasi
+5. **Muhammad Hafas Asfahani**(Tester & Dokumentasi)
    Bertanggung jawab melakukan pengujian aplikasi dan menyusun dokumentasi project.
 
 ---
