@@ -42,7 +42,7 @@
 4. **Aprilia Nurul Hidayah**(Database Engineer)
    Bertugas merancang struktur database, relasi data, serta memastikan integritas data aplikasi.
 
-5. **Muhammad Hafas Asfahani**(Tester & Dokumentasi)
+5. **Muhammad Hafas Asfahani & Taofik Hidayat**(Tester & Dokumentasi)
    Bertanggung jawab melakukan pengujian aplikasi dan menyusun dokumentasi project.
 
 ---
