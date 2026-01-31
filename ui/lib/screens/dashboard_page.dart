@@ -57,6 +57,51 @@ class _DashboardPageState extends State<DashboardPage> {
     }
   }
 
+  void _logout() {
+    Navigator.of(context).pushNamedAndRemoveUntil('/login', (route) => false);
+  }
+
+  void _showProfileDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Text('Profil'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Username'),
+            const SizedBox(height: 4),
+            Text(
+              _userData?['username'] ?? '-',
+              style: const TextStyle(fontWeight: FontWeight.w600),
+            ),
+            const SizedBox(height: 20),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.pop(context);
+                  _logout();
+                },
+                icon: const Icon(Icons.logout),
+                label: const Text('Logout'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red.shade600,
+                  foregroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   Future<void> _saveCountryData(CountryData data) async {
     setState(() {
       _isLoading = true;
@@ -196,9 +241,7 @@ class _DashboardPageState extends State<DashboardPage> {
                         Icons.person_outline,
                         color: Colors.grey.shade700,
                       ),
-                      onPressed: () {
-                        // Profile action
-                      },
+                      onPressed: _showProfileDialog,
                       tooltip: 'Profil',
                     ),
                   ],
