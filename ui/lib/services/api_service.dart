@@ -4,10 +4,8 @@ import '../models/country_data.dart';
 import '../models/policy_data.dart';
 
 class ApiService {
-  // static const String baseUrl =
-  //     'https://verbose-waddle-v6pwj595p99r3wx6j-5000.app.github.dev/api'; // tanpa emu
   static const String baseUrl =
-      'https://bayleigh-noncannibalistic-luciano.ngrok-free.dev/api'; // dengan emu(pakai ngrok)
+      'http://127.0.0.1:5000/api';
 
   // Register
   static Future<Map<String, dynamic>> register(
